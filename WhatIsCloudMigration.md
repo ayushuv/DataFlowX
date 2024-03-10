@@ -44,8 +44,13 @@ It refers to replacing the old application with a new built SaaS (software as a 
 - Hybrid cloud migration
 - Cloud to cloud migration
 - Workload-specific migration
+# Cloud Migration Process
 
-
+- Establishing migration goals
+- Creating a security strategy
+- Replicating existing database
+- Move business intelligence
+- Then switch production from on-premises to cloud
 ## 🔗 Links
 
  - [geeksforgeeks](https://www.geeksforgeeks.org/cloud-migration/)
@@ -56,5 +61,3 @@ It refers to replacing the old application with a new built SaaS (software as a 
 ## Badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
