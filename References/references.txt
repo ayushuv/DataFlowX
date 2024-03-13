@@ -1,0 +1,6 @@
+https://medium.com/hitachisolutions-braintrust/ci-cd-with-github-database-projects-and-azure-pipelines-aeb5a5fed01f
+https://github.com/krishnaik06/mlproject
+https://www.redhat.com/architect/scale-ci-cd
+https://github.com/deepchatterjeevns
+https://www.udemy.com/course/learn-github-actions-ci-cd-devops-pipelines/learn/lecture/39593930?start=0#overview
+https://www.projectpro.io/project-use-case/aws-cdk-lambda-pipeline-example
