@@ -81,13 +81,13 @@ To set up a local environment for developing a data analytics pipeline using Ama
             $ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
             unzip awscliv2.zip
             sudo ./aws/install
-  - To update your current installation of the AWS CLI, add your existing symlink and installer information to construct the install command using the --bin-dir, --            install-dir, and --update parameters. The following command block uses an example symlink of /usr/local/bin and example installer location of /usr/local/aws-cli.
+    - To update your current installation of the AWS CLI, add your existing symlink and installer information to construct the install command using the --bin-dir, --            install-dir, and --update parameters. The following command block uses an example symlink of /usr/local/bin and example installer location of /usr/local/aws-cli.
 
-        $ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-        unzip awscliv2.zip
-        sudo ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
+            $ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+            unzip awscliv2.zip
+            sudo ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
 
-  ## macOS
+    ## macOS
     - In your browser, download the macOS pkg file: https://awscli.amazonaws.com/AWSCLIV2.pkg
     - Run your downloaded file and follow the on-screen instructions. You can choose to install the AWS CLI in the following ways:
     - For all users on the computer (requires sudo)
@@ -133,7 +133,30 @@ To set up a local environment for developing a data analytics pipeline using Ama
 for troubleshooting steps.
 
     #### 🔗 Take help from this Link [aws-CLI-installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+   
+    ## AWS SDK for Python (Boto3)
 
+  Get started quickly using AWS with boto3, the AWS SDK for Python. Boto3 makes it easy to integrate your Python application, library, or script with AWS services including Amazon S3, Amazon EC2, Amazon DynamoDB, and more.
+
+        pip install boto3
+
+
+    ## AWS CDK in Python
+
+    Python is a fully-supported client language for the AWS Cloud Development Kit (AWS CDK) and is considered stable. Working with the AWS CDK in Python uses familiar tools, including the standard Python implementation (CPython), virtual environments with virtualenv, and the Python package installer pip. The modules comprising the AWS Construct Library are distributed via [pypi.org](https://pypi.org/search/?q=aws-cdk). The Python version of the AWS CDK even uses Python-style identifiers (for example, snake_case method names).
+
+        pip install aws-cdk.cdk
+
+    Python AWS CDK applications require Python 3.6 or later. If you don't already have it installed, [download a compatible version](https://www.python.org/downloads/) for your operating system at [python.org](https://www.python.org/). If you run Linux, your system may have come with a compatible version, or you may install it using your distro's package manager (yum, apt, etc.). Mac users may be interested in [Homebrew](https://brew.sh/), a Linux-style package manager for macOS.
+
+    The Python package installer, pip, and virtual environment manager, virtualenv, are also required. Windows installations of compatible Python versions include these tools. On Linux, pip and virtualenv may be provided as separate packages in your package manager. Alternatively, you may install them with the following commands:
+
+
+        python -m ensurepip --upgrade
+        python -m pip install --upgrade pip
+        python -m pip install --upgrade virtualenv
+
+    If you encounter a permission error, run the above commands with the --user flag so that the modules are installed in your user directory, or use sudo to obtain the permissions to install the modules system-wide.
 
 
 - ## Configure AWS CLI:
